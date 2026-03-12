@@ -1,0 +1,1 @@
+A simple Python CLI ToDo App made with Argparse 
