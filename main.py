@@ -18,6 +18,7 @@ def save_tasks(tasks):
 parser = argparse.ArgumentParser()
 
 parser.add_argument("-l", "--list", help="List all tasks", action="store_true")
+parser.add_argument("-v", "--version", help="Show version", action="version", version="0.0.1")
 parser.add_argument("-c", "--complete", type=int, help="Mark a task as complete by ID")
 parser.add_argument("-d", "--delete", type=int, help="Delete a task by ID")
 parser.add_argument("-clr", "--clear", help="Clear all tasks", action="store_true")
