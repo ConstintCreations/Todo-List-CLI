@@ -1,0 +1,3 @@
+*.cfg
+.venv
+tasks.json
